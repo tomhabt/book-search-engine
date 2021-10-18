@@ -1,5 +1,21 @@
 import { gql } from '@apollo/client';
 
-export const QUERY_BOOKS = gql`
-https://www.googleapis.com/books/v1/volumes?q=${query}
+export const GET_ME = gql`
+  {
+    me {
+      _id
+      username
+      email
+      bookCount
+      savedBooks {
+        bookId
+        authors
+        description
+        image
+        link
+        title
+      }
+    }
+ }
 `;
+
