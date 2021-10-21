@@ -1,68 +1,56 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# book-search-engine for MERN
 
-## Available Scripts
+Application Link: https://budget-tracker-pro.herokuapp.com/
+Repository link:https://github.com/tomhabt/book-search-engine.git/
 
-In the project directory, you can run:
+## Description
 
-### `yarn start`
+Update an existing RESTful API to one end point API using graphQL query managment language was the aim of this project which help users to search books and save in thier profile. Books are fetched from an open source API - Googlebooks. The app enables to user to create their owb account, read books, savebook or delete. The Mongo DB server was used to store data and is rest assured that users crediential are kept safe hashed.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Table of Contents
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+* [Installation](#installation)
 
-### `yarn test`
+* [Usage](#usage)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [License](#license)
 
-### `yarn build`
+* [Contributing](#contributing)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* [Questions](#questions)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To install please fork/clone to your repository
 
-### `yarn eject`
+To install npm packages please run:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+npm install
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To start the program please run:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+npm start
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Usage
 
-## Learn More
+To use the app please view the following link: https://budget-tracker-pro.herokuapp.com/
+## License
+    
+Licensed for use with the MIT license.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contributions are welcomed.
+Made with ❤️ by Thomas Habtemariam but helpers to mention now : Hanny Teka (git username: hantekk)
 
-### Code Splitting
+## Questions
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+This work is saved in the following repository
+[Thomas Habtemariam](https://github.com/tomhabt/book-search-engine.git)
 
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+For questions and inquiries contact me at:
+thomas.habtemariam@gmail.com

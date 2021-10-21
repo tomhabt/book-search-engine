@@ -9,32 +9,42 @@ type User {
     email: String
     bookCount: Int
     savedBooks: [Book]
-}
+  }
 
-type Book {
-    bookId: ID
-    authors:[String]
-    description: String
-    image: String
-    link: String
-    title: String
-}
+  type Book {
+      bookId: String
+      authors: [String]
+      description: String
+      title: String
+      image: String
+      link: String
+  }
 
-type Query {
-    me: User
-}
-
-type Auth {
-    token: ID
+  type Auth {
+    token: ID!
     user: User
+  }
+
+
+input BookDetails {
+  bookId: String
+  authors: [String]
+  description: String
+  title: String
+  image: String
+  link: String
 }
-type Mutation {
-    login (email: String!, password: String!): Auth
-    addUser (username: String!, email: String!, password: String!) : Auth
-    saveBook (bookId: String!, authors: [String]!, description: String!, 
-        image: String!, link: String!, title: String!): User
-    removeBook (bookId: String!): User
-}
+
+  type Query {
+    me: User
+  }
+
+  type Mutation {
+    login(email: String!, password: String!): Auth
+    addUser(username: String!, email: String!, password: String!): Auth
+    saveBook(book: BookDetails!): User
+    removeBook(bookId: String!): User
+  }
 `;
 
 // export the typeDefs
