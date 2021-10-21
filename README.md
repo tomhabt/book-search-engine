@@ -1,6 +1,6 @@
 # book-search-engine for MERN
 
-Application Link: https://budget-tracker-pro.herokuapp.com/
+Application Link: https://book-search-engine-pro.herokuapp.com/
 Repository link:https://github.com/tomhabt/book-search-engine.git/
 
 ## Description
@@ -37,7 +37,7 @@ npm start
 
 ## Usage
 
-To use the app please view the following link: https://budget-tracker-pro.herokuapp.com/
+To use the app please view the following link: https://book-search-engine-pro.herokuapp.com/
 ## License
     
 Licensed for use with the MIT license.
