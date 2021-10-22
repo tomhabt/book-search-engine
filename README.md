@@ -5,7 +5,7 @@ Repository link:https://github.com/tomhabt/book-search-engine.git/
 
 ## Description
 
-Update an existing RESTful API to one end point API using graphQL query managment language was the aim of this project which help users to search books and save in thier profile. Books are fetched from an open source API - Googlebooks. The app enables to user to create their owb account, read books, savebook or delete. The Mongo DB server was used to store data and is rest assured that users crediential are kept safe hashed.
+Update an existing RESTful API to one end point API using graphQL query managment language was the aim of this project which help users to search books and save in thier profile. Books are fetched from an open source API - Googlebooks. The app enables to user to create their own account, read books, savebook or delete. The Mongo DB server was used to store data and is rest assured that users crediential are kept in safe hashed (Bcryted).
 
 ## Table of Contents
 
