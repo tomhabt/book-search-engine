@@ -1,7 +1,7 @@
 {
   "name": "book-search-engine",
   "version": "1.0.0",
-  "description": "Application Link: https://stormy-lake-85264.herokuapp.com/ Repository link:https://github.com/tomhabt/book-search-engine.git/",
+  "description": "Application Link: https://book-search-engine-pro.herokuapp.com/ Repository link:https://github.com/tomhabt/book-search-engine.git/",
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
