@@ -42,7 +42,7 @@ npm start
 To use the app please view the following link: https://book-search-engine-pro.herokuapp.com/
 ## License
     
-Licensed for use with the MIT license.
+Licensed for use with the ![MIT license](./LICENSE).
 
 ## Contributing
 
