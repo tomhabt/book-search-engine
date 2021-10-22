@@ -3,7 +3,7 @@
 Application Link: https://book-search-engine-pro.herokuapp.com/
 Repository link:https://github.com/tomhabt/book-search-engine.git/
 
-![Screenshot](https://drive.google.com/file/d/1YR7POEF6TbL2Isj1hEh0jIxwW9og6tkx/view?usp=sharing)
+![Screenshot](https://user-images.githubusercontent.com/84083304/138529579-130e065d-076a-41bc-af18-fa5a4a342d77.png)
 
 ## Description
 
