@@ -18,14 +18,5 @@
     "apollo-server-express": "^3.4.0",
     "dotenv": "^10.0.0",
     "graphql": "^15.6.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tomhabt/book-search-engine.git"
-  },
-  "bugs": {
-    "url": "https://github.com/tomhabt/book-search-engine/issues"
-  },
-  "homepage": "https://github.com/tomhabt/book-search-engine#readme",
-  "description": ""
+  }
 }
