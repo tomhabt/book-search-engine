@@ -36,8 +36,8 @@ const LoginForm = () => {
       console.log(data);
     } catch (e) {
       console.error(e);
-      setShowAlert(true);
     }
+    setShowAlert(true);
 
       setUserFormData({
         username: '',
